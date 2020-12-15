@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    height: 28vh;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding: 20px 70px;
+    margin-bottom: 10px;
+    border-bottom: 1px yellow solid;
+
+}
+header .headline{
+    font-size: 32px;
+}
+.gnav {
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu li {
+    width: calc(100%/3);
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.menu li img {
+    height: 50px;
+    width: 50px;
+    max-width: 100px;
+    height: auto;
+}
+.header-right {
+    margin: 0 0 0 auto;
+    float: right;
+}
+button {
+    background-color: silver;
+    color: white;
+    border-radius: 10%;
+}
+
+
+.main h1 {
+    font-size: 80px;
+}
+.new_article .recom_article {
+    display: inline-block;
+}
+.thumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 150px;
+}
+.thumbs .thumb {
+    display: inline-block;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+.thumbs .thumb img {
+    margin-top: 15px;
+    height: 100%;
+}
+.readmore a.button {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    line-height: 14px;
+    font-size: 14px;
+    width: 160px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+  }
+
+
+footer {
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70px;   
+}
+.instalogo {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+.twlogo {
+    width: 50px;
+    height: 50px;
+}
+.info li {
+    float: left;
+    margin: 20px;
+    font-size: 15px;   
+}
+.info li a {
+    text-decoration: none;
+    color: white;
+}
