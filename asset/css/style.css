@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'M PLUS 1p', sans-serif;
 
 }
 
 
 header {
-    height: 28vh;
-    background-color: salmon;
+    height: 30vh;
+    /* background-color: salmon; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,8 @@ header {
     display: block;
     padding: 20px 70px;
     margin-bottom: 10px;
-    border-bottom: 1px yellow solid;
+    border-bottom: 1px gray solid;
+    /* color: white; */
 
 }
 header .headline{
@@ -26,6 +28,7 @@ header .headline{
     padding-top: 20px;
     margin-left: 200px;
     text-align: center;
+    margin-top: 5px;
 }
 .menu {
     display: flex;
@@ -47,14 +50,28 @@ header .headline{
     float: right;
 }
 button {
-    background-color: silver;
-    color: white;
+    /* background-color: silver; */
+    /* color: white; */
     border-radius: 10%;
+    width: 70px;
+    height: 30px;
 }
 
+input.form-control {
+    height: 30px;
+    border-radius: 5px;
+}
 
 .main h1 {
     font-size: 80px;
+}
+
+p {
+    font-size: 15px;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 .new_article .recom_article {
     display: inline-block;
@@ -76,6 +93,7 @@ button {
 .thumbs .thumb img {
     margin-top: 15px;
     height: 100%;
+    margin-bottom: 5px;
 }
 .readmore a.button {
     text-decoration: none;
@@ -90,11 +108,12 @@ button {
     margin: 0 auto;
     border: 1px solid #aaa;
     margin-bottom: 20px;
+    border-radius: 5%;
   }
 
 
 footer {
-    background-color: salmon;
+    /* background-color: salmon; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,5 +136,5 @@ footer {
 }
 .info li a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
