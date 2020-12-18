@@ -5,19 +5,21 @@
 
 }
 
+header, footer {
+/* グラデーション */
+background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 header {
     height: 30vh;
-    /* background-color: salmon; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: block;
     padding: 20px 70px;
-    margin-bottom: 10px;
-    border-bottom: 1px gray solid;
-    /* color: white; */
 
 }
 header .headline{
@@ -57,21 +59,48 @@ button {
     height: 30px;
 }
 
+button:hover {
+    background-color: #DCC2FF;
+}
+
 input.form-control {
     height: 30px;
     border-radius: 5px;
 }
 
 .main h1 {
-    font-size: 80px;
+    font-size: 70px;
+    color: #333333;
+    font-family: 'Dancing Script', cursive;
+}
+.main p {
+    margin-top: 10px;
+    color: #333333;
+}
+
+/* メインコンテンツ */
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #333333;
+
+}
+
+h2.new_article {
+    margin-top: 10px;
 }
 
 p {
     font-size: 15px;
+    font-weight: lighter;
 }
 h3 {
     font-size: 18px;
     margin-bottom: 5px;
+    font-weight: bolder;
 }
 .new_article .recom_article {
     display: inline-block;
@@ -111,9 +140,12 @@ h3 {
     border-radius: 5%;
   }
 
+.readmore a.button:hover {
+    background-color: #D6A4A4;
+}  
 
+/* フッター */
 footer {
-    /* background-color: salmon; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,5 +168,5 @@ footer {
 }
 .info li a {
     text-decoration: none;
-    /* color: white; */
+    color:#333333;
 }
