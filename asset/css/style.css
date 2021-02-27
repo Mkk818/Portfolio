@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: 'M PLUS 1p', sans-serif;
-
+    /* color: #ffffff; */
+    /* color: #efeeea; */
+    /* color: #1c273e; */
 }
 
 header, footer {
+    background-color: #1c273e;
 /* グラデーション */
-background: #DAE2F8;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: #efeeea;  fallback for old browsers
+background: -webkit-linear-gradient(to top, #1c273e, #efeeea);Chrome 10-25, Safari 5.1-6
+background: linear-gradient(to top, #1c273e, #efeeea); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header {
@@ -37,10 +40,14 @@ header .headline{
     display: flex;
     flex-wrap: wrap;
 }
+.menu li a {
+    color: #efeeea;
+}
 
 @media screen and (max-width:780px){
-    .menu li img {
+    .menu li a {
         display: none;
+        color: #efeeea;
     }
 }
 .menu li {
@@ -66,7 +73,7 @@ button {
 }
 
 button:hover {
-    background-color: #DCC2FF;
+    background-color: #efeeea;
 }
 
 input.form-control {
@@ -76,22 +83,24 @@ input.form-control {
 
 .main h1 {
     font-size: 70px;
-    color: #333333;
+    color: #efeeea;
     font-family: 'Dancing Script', cursive;
+    font-weight: bold;
 }
 .main p {
     margin-top: 10px;
-    color: #333333;
+    color: #1c273e;
+    font-weight: 10;
 }
 
 /* メインコンテンツ */
-body {
+/* body {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
-}
+} */
 
 h2 {
-    color: #333333;
+    color: #1c273e;
 
 }
 
@@ -133,6 +142,7 @@ h3 {
         margin-right: 7.5px;
         margin-bottom: 7.5px;
         width: 150px;
+        /* font-size: 10px; */
     }
 }
 
@@ -143,23 +153,23 @@ h3 {
 }
 .readmore a.button {
     text-decoration: none;
-    color: #333;
+    color: #1c273e;
     display: block;
     text-align: center;
-    background-color: #eee;
+    background-color: #efeeea;
     padding: 10px;
     line-height: 14px;
     font-size: 14px;
     width: 160px;
     margin: 0 auto;
-    border: 1px solid #aaa;
+    border: 1px solid #1c273e;
     margin-bottom: 20px;
     border-radius: 5%;
   }
 
 .readmore a.button:hover {
-    background-color: #D6A4A4;
-}  
+    background-color: #ffffff;
+}
 
 li {
     list-style: none;
@@ -167,7 +177,7 @@ li {
 
 li a {
     text-decoration: none;
-    color: black;
+    color: #1c273e;
 }
 /* フッター */
 footer {
@@ -175,7 +185,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 70px;   
+    height: 70px;
 }
 .instalogo {
     width: 50px;
@@ -189,9 +199,9 @@ footer {
 .info li {
     float: left;
     margin: 20px;
-    font-size: 15px;   
+    font-size: 15px;
 }
 .info li a {
     text-decoration: none;
-    color:#333333;
+    color: #efeeea;
 }
